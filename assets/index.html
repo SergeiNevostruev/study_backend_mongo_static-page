@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1 class="title">My server</h1>
+
+  <a class="waves-effect waves-light btn getAllArticles">Получить все статьи</a>
+  <a class="waves-effect waves-light btn delFrontAllArticles">Удалить с фронта</a>
+  <div class="row">
+    <form class="col s12" id="form" type="submit">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="input_text" type="text" data-length="10" name="author">
+          <label for="input_text">author</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="input_text" type="text" data-length="10" name="title">
+          <label for="input_text">title</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea2" class="materialize-textarea" data-length="220" name="content"></textarea>
+          <label for="textarea2">content</label>
+        </div>
+      </div>
+      <button class="btn waves-effect waves-light submit" type="submit" name="action">Отправить на сервер
+      </button>
+    </form>
+  </div>
+
+    <a href="/auth.html" class="link">Авторизация</a>
+
+  <div class="apps"></div>
+
+  <script src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="title">Регистрация и вход на сайт</h1>
+
+    <div class="row">
+        <form class="col s12" id="form-auth" type="submit">
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate email" name="email">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="password" type="password" class="validate password" name="password">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+
+
+            <button class="btn waves-effect waves-light submit regBtn" type="click" name="action-reg">Регистрация
+            </button>
+
+            <button class="btn waves-effect waves-light submit authBtn" type="submit" name="action-in">Войти
+            </button>
+
+        </form>
+
+    </div>
+
+    <a href="/index" class="link">Главная</a>
+    <a href="/api/index" class="link">Главная</a>
+
+
+    <script src="authReg.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.title {
+    text-align: center;
+    color: aqua;
+    width: 100%;
+}
+
+.articles {
+    background-color: coral;
+}
+
+.articles h2 {
+    font-size: 32px;
+    color: rgb(27, 27, 27)
+}
+
+
+.articles p {
+    font-size: 25px;
+    color: rgb(40, 54, 59)
+}
+
+.getAllArticles {
+    margin-left: 10px;
+}
+
+.link {
+    margin: 40px;
+}
